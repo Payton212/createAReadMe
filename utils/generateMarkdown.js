@@ -2,32 +2,32 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   let Badge;
-  if(license == 'MIT License'){
-       Badge = "MIT-red)";
-  }else if(license == 'Apache 2.0 license badge'){
-       Badge = "![Static Badge](https://img.shields.io/badge/License-%20Apache%202.0-green)";
+  if(license == 'MIT'){
+       Badge = "## License\n![Static Badge](https://img.shields.io/badge/License-%20MIT%20License-red)";
+  }else if(license == 'Apache License 2.0'){
+       Badge = "## License\n![Static Badge](https://img.shields.io/badge/License-%20Apache%202.0-green)";
   }else if(license == 'GNU General Public License v3.0'){
-       Badge = "![Static Badge](https://img.shields.io/badge/License-%20GNU%20Public%20v3.0-green)";
-  }else if(license == 'BSD 2-Clause "Simplified" License'){
-       Badge = "![Static Badge](https://img.shields.io/badge/License-%20BSD%202-blue)";
-  }else if(license == 'BSD 3-Clause "New" or "Revised" License'){
-       Badge = "![Static Badge](https://img.shields.io/badge/License-%20BSD%203-purple)";
+       Badge = "## License\n![Static Badge](https://img.shields.io/badge/License-%20GNU%20Public%20v3.0-green)";
+  }else if(license == 'BSD 2-Clause "Simplified"'){
+       Badge = "## License\n![Static Badge](https://img.shields.io/badge/License-%20BSD%202-blue)";
+  }else if(license == 'BSD 3-Clause "New" or "Revised"'){
+       Badge = "## License\n![Static Badge](https://img.shields.io/badge/License-%20BSD%203-purple)";
   }else if(license == 'Boost Software License 1.0'){
-       Badge = "![Static Badge](https://img.shields.io/badge/License-%20Boost%20Software-pink)";
+       Badge = "## License\n![Static Badge](https://img.shields.io/badge/License-%20Boost%20Software-pink)";
   }else if(license == 'Creative Commons Zero v1.0 Universal'){
-       Badge = "[Static Badge](https://img.shields.io/badge/License-%20Commons%20Zero%20v1.0-yellow)";
+       Badge = "## License\n![Static Badge](https://img.shields.io/badge/License-%20Commons%20Zero%20v1.0-yellow)";
   }else if(license == 'Eclipse Public License 2.0'){
-       Badge = "![Static Badge](https://img.shields.io/badge/License-%20Eclipse%20Public%202.0-red)";
+       Badge = "## License\n![Static Badge](https://img.shields.io/badge/License-%20Eclipse%20Public%202.0-red)";
   }else if(license == 'GNU Affero General Public License v3.0'){
-       Badge = "![Static Badge](https://img.shields.io/badge/License-%20GNU%20Affero%20Public%20v3.0-blue)";
+       Badge = "## License\n![Static Badge](https://img.shields.io/badge/License-%20GNU%20Affero%20Public%20v3.0-blue)";
   }else if(license == 'GNU General Public License v2.0'){
-       Badge = "![Static Badge](https://img.shields.io/badge/License-%20GNU%20Public%20v2.0-purple)";
+       Badge = "## License\n![Static Badge](https://img.shields.io/badge/License-%20GNU%20Public%20v2.0-purple)";
   }else if(license == 'GNU Lesser General Public License v2.1'){
-       Badge = "![Static Badge](https://img.shields.io/badge/License-%20GNU%20Lesser%20Public%20v2.0-pink)";
+       Badge = "## License\n![Static Badge](https://img.shields.io/badge/License-%20GNU%20Lesser%20Public%20v2.0-pink)";
   }else if(license == 'Mozilla Public License 2.0'){
-       Badge = "[Static Badge](https://img.shields.io/badge/License-%20Mozilla%202.0-yellow)";
+       Badge = "## License\n![Static Badge](https://img.shields.io/badge/License-%20Mozilla%202.0-yellow)";
   }else if(license == 'The Unlicense'){
-       Badge = "[Static Badge](https://img.shields.io/badge/License-%20The%20Unlicense-green)";
+       Badge = "## License\n![Static Badge](https://img.shields.io/badge/License-%20The%20Unlicense-green)";
   }else if(license == 'None'){
        Badge = '';
   }
@@ -39,32 +39,32 @@ function renderLicenseBadge(license) {
 export function renderLicenseLink(license) {
   
   let Link;
-  if(license == 'MIT License'){
-       Link = "https://mit-license.org";
-  }else if(license == 'Apache license 2.0'){
-       Link = "https://pitt.libguides.com/openlicensing/apache2";
+  if(license == 'MIT'){
+       Link = "- https://mit-license.org";
+  }else if(license == 'Apache License 2.0'){
+       Link = "- https://pitt.libguides.com/openlicensing/apache2";
   }else if(license == 'GNU General Public License v3.0'){
-       Link = "https://www.gnu.org/licenses/gpl-3.0.en.html";
-  }else if(license == 'BSD 2-Clause "Simplified" License'){
-       Link = "https://opensource.org/license/bsd-2-clause";
-  }else if(license == 'BSD 3-Clause "New" or "Revised" License'){
-       Link = "https://choosealicense.com/licenses/bsd-3-clause/";
+       Link = "- https://www.gnu.org/licenses/gpl-3.0.en.html";
+  }else if(license == 'BSD 2-Clause "Simplified"'){
+       Link = "- https://opensource.org/license/bsd-2-clause";
+  }else if(license == 'BSD 3-Clause "New" or "Revised"'){
+       Link = "- https://choosealicense.com/licenses/bsd-3-clause/";
   }else if(license == 'Boost Software License 1.0'){
-       Link = "https://www.boost.org/LICENSE_1_0.txt";
+       Link = "- https://www.boost.org/LICENSE_1_0.txt";
   }else if(license == 'Creative Commons Zero v1.0 Universal'){
-       Link = "https://spdx.org/licenses/CC0-1.0";
+       Link = "- https://spdx.org/licenses/CC0-1.0";
   }else if(license == 'Eclipse Public License 2.0'){
-       Link = "https://www.eclipse.org/legal/epl-2.0/";
+       Link = "- https://www.eclipse.org/legal/epl-2.0/";
   }else if(license == 'GNU Affero General Public License v3.0'){
-       Link = "https://www.gnu.org/licenses/agpl-3.0.en.html";
+       Link = "- https://www.gnu.org/licenses/agpl-3.0.en.html";
   }else if(license == 'GNU General Public License v2.0'){
-       Link = "https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html";
+       Link = "- https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html";
   }else if(license == 'GNU Lesser General Public License v2.1'){
-       Link = "https://www.gnu.org/licenses/old-licenses/lgpl-2.1-standalone.html";
+       Link = "- https://www.gnu.org/licenses/old-licenses/lgpl-2.1-standalone.html";
   }else if(license == 'Mozilla Public License 2.0'){
-       Link = "https://www.mozilla.org/en-US/MPL/";
+       Link = "- https://www.mozilla.org/en-US/MPL/";
   }else if(license == 'The Unlicense'){
-       Link = "https://choosealicense.com/licenses/unlicense/";
+       Link = "- https://choosealicense.com/licenses/unlicense/";
   }else if(license == 'None'){
        Link = '';
   }
@@ -75,45 +75,86 @@ export function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   let LSection;
-  if(license != ''){
-    LSection = `I am using the ${license} license`
+  if(license != 'None'){
+    LSection = `\n## License Section\n - I am using the ${license} license`
   }else
-  LSection == null
+  LSection == ''
   return LSection;
 }
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.Title}
+  return `
+  ## Title
+        # ${data.Title}
  
-          ## License
-   ![Static Badge](https://img.shields.io/badge/License-%20${renderLicenseBadge(data.license)}
+          
+${renderLicenseBadge(data.license)}
 
+   \n  ## Table of Contents
 
-        ## Description
+[Description of the app](#description)
+\n
+[Installation of the app](#installation)
+\n
+[Usage of app](#usage)
+\n
+[License Badge](#license)
+\n
+[license section](#license-section)
+\n
+[test](#test)
+\n
+[Guidlines for the app](#guide-lines)
+\n
+[Contact information](#contact)
+         
+
+    \n ## Description
         ${data.Description}
 
         
-        - ${data.Motivation}
-        - ${data.solve}
-        - ${data.Learn}
+          - ${data.Motivation}
+          - ${data.solve}
+          - ${data.Learn}
 
-        ## Installation
+    \n  ## Installation
 
-        - ${data.Installation}
+          - ${data.Installation}
            
 
-        ## Usage
+    \n  ## Usage
 
-        - ${data.Usage}
+          - ${data.Usage}
 
 
-      ##License
-        -    ${renderLicenseSection(data.license)}
-        -t   his is the license link!!!
-                   ${renderLicenseLink(data.license)}
+
+
+
+
+
+        \n ${renderLicenseSection(data.license)}
+             
+        ${renderLicenseLink(data.license)}
+
+     
+
+
+     \n  ## Test
+          - ${data.TestInstructions}
+
+     \n ## Guide Lines
+          - ${data.Guidelines}
+
+    \n  ## Contact
+
+          - ${data.GitHub}
+
+          -${data.Email}
+
 `;
 }
 
 export default generateMarkdown;
+
 
