@@ -86,5 +86,5 @@
 
 ## Videos
 
-[click to watch submission video](/createAReadMe/video/REC-20241217115305.mp4)
+[click to watch submission video](/video/REC-20241217115305.mp4)
 
