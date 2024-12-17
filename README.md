@@ -1,2 +1,28 @@
-# createAReadMe
-this will be an application that will create a ReadMe after taking input from the user from hard coded dialogue
+# as
+ 
+          ## License
+   ![Static Badge](https://img.shields.io/badge/License-%20MIT-red)
+
+
+        ## Description
+        as
+
+        
+        - sf
+        - sf
+        - sa
+
+        ## Installation
+
+        - asf
+           
+
+        ## Usage
+
+        - asf
+
+
+      ##License
+        -    I am using the MIT License license
+        -t   his is the license link!!!
+                   https://mit-license.org
