@@ -82,9 +82,9 @@
 
           - payton212
 
-          -payton_212@icloud.com
+          - payton_212@icloud.com
 
 ## Videos
 
-[click to watch submission video](/createAReadMe/video/REC-20241217115305.mp4)
+[click to watch submission video](https://youtu.be/AbpQUzFBe9Y?si=dtnngYPQ70FCrJsB)
 
