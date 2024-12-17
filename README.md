@@ -35,23 +35,23 @@
 
     
  ## Description
-        this app allows you to create a high quality read me using node to make creating read me's easy to do you can add any license you like and add all the content you desire 
+        this is a project that generates a readme
 
         
-          - I built this project because I am not good at creating Read Me's and this will help me immensly in documenting what I am trying to build
-          - if you are unsure what to add in your readme this app makes the process easy
-          - i learned how to use npm i, node, and how to pass information between files through functions using import and export
+          - i built this project to assist in creating readmes
+          - makes creating readmes easy
+          - i learned how to use node modules and import and export data through functions 
 
     
   ## Installation
 
-          - to install this project copy the files open a terminal and run the "node index.js" 
+          - copy the files and run node index.js in the terminal
            
 
     
   ## Usage
 
-          - any time you need to create a readme you can make quick use of this app and use the created readme wherever it is desired
+          - whenever you need to create a readme you can use this application
 
 
 
@@ -71,11 +71,11 @@
 
      
   ## Test
-          - after running the "node index.js" follow the prompts until you get the "you created a readMe!" log and verify the desred readme was creaeted
+          - after running node index.js in the terminal you answer the questions and if given the  prompt  you created a readMe ! then  verify a readme was created 
 
      
  ## Guide Lines
-          - it's a free use application for personal use not for users to contribute to
+          - there are no guidlines it is only for personal use
 
     
   ## Contact
@@ -83,4 +83,8 @@
           - payton212
 
           -payton_212@icloud.com
+
+## Videos
+
+[click to watch submission video](/createAReadMe/video/REC-20241217115305.mp4)
 

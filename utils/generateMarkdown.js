@@ -83,6 +83,7 @@ function renderLicenseSection(license) {
 }
 
 // TODO: Create a function to generate markdown for README
+// the given data (answers) from the prompted questions is is sto
 function generateMarkdown(data) {
   return `
   ## Title

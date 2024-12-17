@@ -1,8 +1,12 @@
 // TODO: Include packages needed for this application
+
+// importing node modules so the app will work as needed
 import inquirer from 'inquirer';
 import fs from 'fs';
 import generateMarkdown from './utils/generateMarkdown.js';
 // TODO: Create an array of questions for user input
+
+// creating the questions array to be able to access later in the prompt section
 const questions = [
     {
         type:"input",
@@ -64,6 +68,8 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
+//when the writeToFile function is called it creates a readme file with the returned data from generateMarkdown  if there is an error 
+// the error will log else you succesfully created a readme 
 function writeToFile(fileName, data) {
 fs.writeFile(fileName,data,(err) => {
     if (err){
@@ -82,7 +88,8 @@ fs.writeFile(fileName,data,(err) => {
 function init() {
     inquirer.prompt(questions).then((answers) =>{
         
-    writeToFile('README.md', generateMarkdown(answers));
+    writeToFile('README.md', generateMarkdown(answers));// calls the writeToFile function giving data the the return of generateMarkdown
+    // and giving generateMarkdown the answers from the prompted questions 
 
     })
 }
